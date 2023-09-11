@@ -7,6 +7,9 @@ public class Client {
     @GeneratedValue
     private Long ClientId;
 
+
+
+
     @Column(nullable = false)
     private String firstName;
 
